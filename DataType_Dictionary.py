@@ -58,6 +58,11 @@ print(dic1.get(4)) # 키값 4 가 존재하지 않지만 오류를 발생시키�
 # None
 
 
+# 해당 키가 존재하는지 조사
+print(1 in dic1)
+# True
+
+
 # 요소 삭제
 del dic1[2]
 
