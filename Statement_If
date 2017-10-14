@@ -1,0 +1,46 @@
+flag = True
+if flag:
+    print('flag is true')
+else:
+    print('flag is false')
+# flag is true
+
+a = 1
+b = 2
+if a == b:
+    print('a equal b')
+elif a != b:
+    print('a not equal b')
+# a not equal b
+
+# 조건문 and, or, not
+flag1 = True
+flag2 = False
+flag3 = True
+if (flag1 and flag2) or not flag3:
+    print('pass')
+else:
+    print('not pass')
+# not pass
+
+# 조건문 in s, not in s
+set1 = set([1,2,3])
+if 1 in set1:
+    print('1 in set1')
+# 1 in set1
+
+if 4 not in set1:
+    print('4 not in set1')
+# 4 not in set1
+
+
+# 조건문에서 아무것도 안할려면 pass
+if True:
+    pass
+
+# 간단하게 쓰기
+list = [1,2,3]
+if 1 not in list: pass
+else: print('1 in list')
+# 1 in list
+
