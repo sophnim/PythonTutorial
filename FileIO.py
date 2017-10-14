@@ -38,3 +38,10 @@ with open('test.txt', 'r') as f:
     data = f.read()
     print(data)
     
+    
+# 프로그램 실행 인수 얻기
+import sys
+args = sys.argv[1:]
+for arg in args:
+    print(arg)
+    
